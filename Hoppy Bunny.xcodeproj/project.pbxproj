@@ -64,12 +64,12 @@
 				F260EA7A2727126000F2BF3A /* AppDelegate.swift */,
 				F260EA7C2727126000F2BF3A /* GameScene.sks */,
 				F260EA7E2727126000F2BF3A /* Actions.sks */,
+				F260EA912727151600F2BF3A /* Hero.sks */,
 				F260EA802727126000F2BF3A /* GameScene.swift */,
 				F260EA822727126000F2BF3A /* GameViewController.swift */,
 				F260EA842727126000F2BF3A /* Main.storyboard */,
 				F260EA872727126200F2BF3A /* Assets.xcassets */,
 				F260EA892727126200F2BF3A /* LaunchScreen.storyboard */,
-				F260EA912727151600F2BF3A /* Hero.sks */,
 			);
 			path = "Hoppy Bunny";
 			sourceTree = "<group>";
