@@ -15,6 +15,7 @@
 		F260EA862727126000F2BF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F260EA842727126000F2BF3A /* Main.storyboard */; };
 		F260EA882727126200F2BF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F260EA872727126200F2BF3A /* Assets.xcassets */; };
 		F260EA8B2727126200F2BF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F260EA892727126200F2BF3A /* LaunchScreen.storyboard */; };
+		F260EA922727151600F2BF3A /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = F260EA912727151600F2BF3A /* Hero.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F260EA852727126000F2BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F260EA872727126200F2BF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F260EA8A2727126200F2BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F260EA912727151600F2BF3A /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F260EA842727126000F2BF3A /* Main.storyboard */,
 				F260EA872727126200F2BF3A /* Assets.xcassets */,
 				F260EA892727126200F2BF3A /* LaunchScreen.storyboard */,
+				F260EA912727151600F2BF3A /* Hero.sks */,
 			);
 			path = "Hoppy Bunny";
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				F260EA862727126000F2BF3A /* Main.storyboard in Resources */,
 				F260EA7D2727126000F2BF3A /* GameScene.sks in Resources */,
 				F260EA882727126200F2BF3A /* Assets.xcassets in Resources */,
+				F260EA922727151600F2BF3A /* Hero.sks in Resources */,
 				F260EA8B2727126200F2BF3A /* LaunchScreen.storyboard in Resources */,
 				F260EA7F2727126000F2BF3A /* Actions.sks in Resources */,
 			);
