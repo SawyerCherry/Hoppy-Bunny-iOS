@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F220A5A9273F1C8D00B848A5 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = F220A5A8273F1C8D00B848A5 /* Obstacle.sks */; };
 		F22DC5962739E2160009CA94 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22DC5952739E2160009CA94 /* CGFloat+Extensions.swift */; };
 		F260EA7B2727126000F2BF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F260EA7A2727126000F2BF3A /* AppDelegate.swift */; };
 		F260EA7D2727126000F2BF3A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F260EA7C2727126000F2BF3A /* GameScene.sks */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F220A5A8273F1C8D00B848A5 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 		F22DC5952739E2160009CA94 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		F260EA772727126000F2BF3A /* Hoppy Bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoppy Bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F260EA7A2727126000F2BF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				F260EA7C2727126000F2BF3A /* GameScene.sks */,
 				F260EA7E2727126000F2BF3A /* Actions.sks */,
 				F260EA912727151600F2BF3A /* Hero.sks */,
+				F220A5A8273F1C8D00B848A5 /* Obstacle.sks */,
 				F260EA802727126000F2BF3A /* GameScene.swift */,
 				F260EA822727126000F2BF3A /* GameViewController.swift */,
 				F260EA842727126000F2BF3A /* Main.storyboard */,
@@ -141,6 +144,7 @@
 				F260EA922727151600F2BF3A /* Hero.sks in Resources */,
 				F260EA8B2727126200F2BF3A /* LaunchScreen.storyboard in Resources */,
 				F260EA7F2727126000F2BF3A /* Actions.sks in Resources */,
+				F220A5A9273F1C8D00B848A5 /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
