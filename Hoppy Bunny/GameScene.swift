@@ -18,6 +18,8 @@ enum GameSceneState {
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var buttonRestart: MSButtonNode!
+    var scoreLabel: SKLabelNode!
+    var points = 0
     var gameState: GameSceneState = .active
     var obstacleSource: SKNode!
     var obstacleLayer: SKNode!
@@ -45,6 +47,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         buttonRestart = (self.childNode(withName: "buttonRestart") as! MSButtonNode)
         
+        scoreLabel = (self.childNode(withName: "scoreLabel") as! SKLabelNode)
+        
+        
+        
         /* Setup restart button selection handler */
         buttonRestart.selectedHandler = {
 
@@ -63,6 +69,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         
         buttonRestart.state = .MSButtonNodeStateHidden
+        
+        scoreLabel.text = "\(points)"
         
     }
     
@@ -180,7 +188,29 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func didBegin(_ contact: SKPhysicsContact) {
-      /* Hero touches anything, game over */
+        
+        /* Get references to bodies involved in collision */
+        let contactA = contact.bodyA
+        let contactB = contact.bodyB
+
+        /* Get references to the physics body parent nodes */
+        let nodeA = contactA.node!
+        let nodeB = contactB.node!
+
+        /* Did our hero pass through the 'goal'? */
+        if nodeA.name == "goal" || nodeB.name == "goal" {
+
+          /* Increment points */
+          points += 1
+
+          /* Update score label */
+          scoreLabel.text = String(points)
+
+          /* We can return now */
+          return
+        }
+        
+     
 
       /* Ensure only called while game running */
       if gameState != .active { return }
